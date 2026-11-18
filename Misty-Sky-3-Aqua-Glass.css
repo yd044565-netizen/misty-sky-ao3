@@ -1,0 +1,780 @@
+/* Misty Sky 3.0 - Aqua Glass Edition | AO3 Site Skin */
+
+body {
+  background-color: #f9fcff;
+  color: #29435c;
+}
+
+#outer {
+  background-color: #ffffff !important;
+  background-image: radial-gradient(circle, #91c3e9 0px, #91c3e9 4px, rgba(145, 195, 233, 0) 4.8px), radial-gradient(circle, #91c3e9 0px, #91c3e9 4px, rgba(145, 195, 233, 0) 4.8px) !important;
+  background-size: 48px 48px !important;
+  background-position: 0px 0px, 24px 24px !important;
+  background-repeat: repeat !important;
+  color: #29435c;
+}
+
+#inner {
+  background: transparent !important;
+  color: #29435c;
+}
+
+a,
+a:link,
+a:visited {
+  color: #355e88;
+}
+
+a:hover,
+a:focus {
+  color: #173d64;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  color: #35577e;
+  text-shadow: none;
+}
+
+#header {
+  background-color: #cce8f8;
+  background-image: url("https://i.postimg.cc/9XCZCv4X/Aqua-Ripples.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+  border-bottom: 1px solid #d9effb;
+  box-shadow: none;
+  color: #294b70;
+}
+
+#header .heading {
+  margin: 0;
+  padding: 0.32em 0.65em 0.32em 10px;
+}
+
+#header .heading a,
+#header .heading a:visited {
+  color: #36628b;
+  text-shadow: none;
+}
+
+#header .heading .logo,
+#kudos p.kudos:before {
+  filter: contrast(0) sepia(1) saturate(1.4) hue-rotate(164deg) brightness(0.92);
+}
+
+#header #greeting {
+  clear: both;
+  float: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: auto;
+  margin: 0;
+  padding: 0.15em 0.65em 0.24em 10px;
+  text-align: left;
+}
+
+#header #greeting > .user {
+  float: none;
+  display: flex;
+  flex: 1 1 0%;
+  min-width: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#header #greeting > .user > li:first-child {
+  order: 1;
+  margin-left: auto;
+}
+
+#header #greeting > .user > li:nth-child(2) > .menu {
+  left: 0;
+  right: auto;
+}
+
+#header #greeting > .icon {
+  order: 1;
+  float: none;
+  width: auto;
+  height: auto;
+  margin: 0 0 0 0.18em;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+#header #greeting > .icon img {
+  filter: none;
+  display: block;
+  box-sizing: border-box;
+  width: 4em;
+  height: 4em;
+  border: 2px solid #83c9eb;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: #f7fcff;
+}
+
+#header .primary {
+  background: rgba(244, 251, 255, 0.60);
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.78);
+  box-shadow: none;
+  padding: 0.22em 0.45em;
+  text-align: center;
+}
+
+#header .primary > li.dropdown {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+
+#header .primary > li.search {
+  display: block;
+  float: none;
+  clear: both;
+  width: auto;
+  text-align: center;
+}
+
+#header #search {
+  float: none;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header #search fieldset,
+#header #search p {
+  text-align: center;
+}
+
+#header #search .submit {
+  float: none;
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+#header .primary .menu {
+  text-align: left;
+}
+
+#header .primary a,
+#header .primary a:visited,
+#header .user a,
+#header .user a:visited {
+  color: #294b70;
+  text-shadow: none;
+}
+
+#header .primary a:hover,
+#header .primary a:focus,
+#header .primary .dropdown:hover > a,
+#header .primary .open > a,
+#header .user a:hover,
+#header .user a:focus,
+#header .user .dropdown:hover > a,
+#header .user .open > a {
+  background: #edf7ff;
+  color: #21496e;
+  border-radius: 0.75em;
+}
+
+#header .menu,
+#header .dropdown .menu {
+  background: #f5fbff;
+  color: #294b70;
+  border: 1px solid #cadeef;
+  border-radius: 0.7em;
+  box-shadow: none;
+}
+
+#header .menu li,
+#header .menu a {
+  border-color: #deedf7;
+}
+
+#header #search .text,
+#header #search input[type="text"],
+#header #search input[type="search"] {
+  background: rgba(255, 255, 255, 0.90);
+  border: 1px solid #c3dae9;
+  border-radius: 1.1em;
+  box-shadow: none;
+  color: #294b70;
+  text-shadow: none;
+}
+
+#dashboard,
+#dashboard.own {
+  box-sizing: border-box;
+  background: #eaf7fd;
+  border: 1px solid #c4dfef;
+  border-radius: 1em;
+  box-shadow: none;
+  float: none;
+  width: auto;
+  max-width: none;
+  margin: 0.65em 0.75em 0.45em;
+  padding: 0.28em;
+  text-align: left;
+}
+
+#dashboard ul {
+  background: transparent;
+  border: 0;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+#dashboard li {
+  display: inline-block;
+  margin: 0.04em 0.06em;
+  padding: 0;
+  vertical-align: middle;
+}
+
+#dashboard a,
+#dashboard span.current {
+  display: inline-block;
+  box-sizing: border-box;
+  min-height: 24px;
+  font: inherit;
+  font-size: 0.94em;
+  font-weight: normal;
+  line-height: 1.3;
+  padding: 0.14em 0.47em;
+}
+
+#dashboard .secondary,
+#dashboard .menu {
+  background: #f5fbff;
+  border: 1px solid #d1e5f3;
+  border-radius: 0.7em;
+  box-shadow: none;
+}
+
+#dashboard .secondary ul,
+#dashboard .menu ul,
+#dashboard ul.menu,
+#dashboard .secondary li,
+#dashboard .menu li {
+  display: block;
+}
+
+#main.dashboard,
+#dashboard ~ #main {
+  box-sizing: border-box;
+  float: none;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0.65em 0.9em 1.25em;
+}
+
+li.blurb,
+#main .wrapper > dl.meta,
+#main .comment,
+#main .notice,
+#main .flash,
+#main .filters fieldset {
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid #d3e6f3;
+  border-radius: 1em;
+  box-shadow: none;
+  color: #29435c;
+}
+
+li.blurb {
+  margin: 0.7em 0;
+  padding: 0.8em;
+}
+
+#main .work.meta,
+#main .bookmark .user {
+  box-shadow: none;
+}
+
+#main .blurb .header .heading a[href^="/works/"],
+#main .blurb .header .heading a[href^="/collections/"][href*="/works/"],
+#main .blurb .header .heading a:first-child,
+#main .work .preface h2.title,
+#main #workskin h2.title,
+#main h2.title.heading,
+#main .series .work .heading a[href^="/works/"] {
+  color: #294b70;
+}
+
+#main .blurb .header .heading a[rel~="author"],
+#main .blurb .header .heading a[href^="/users/"],
+#main .byline a[rel~="author"],
+#main .byline a[href^="/users/"] {
+  color: #355e88;
+}
+
+#main .blurb .header .datetime,
+#main .blurb dl.stats {
+  color: #4d6883;
+}
+
+#main .blurb a.tag {
+  background: #eaf5fd;
+  color: #365b80;
+  border: 0;
+  border-radius: 0.85em;
+  padding: 0.1em 0.35em;
+}
+
+#main .blurb a.tag:hover,
+#main .blurb a.tag:focus {
+  background: #d7ebfa;
+  color: #214567;
+}
+
+/* Liquid glass rings adapted for the AO3 controls */
+#header #greeting > .user > li:nth-child(2) > a,
+#header #greeting > .user > li:last-child > a,
+#header #search .button,
+#header #search input[type="submit"],
+#header #search .button:focus,
+#header #search input[type="submit"]:focus,
+#dashboard a,
+#dashboard a:hover,
+#dashboard a:focus,
+#dashboard span.current,
+#main .actions a,
+#main .actions a:visited,
+#main .actions a:hover,
+#main .actions a:focus,
+#main .actions button,
+#main .actions button:hover,
+#main .actions button:focus,
+#main .actions input[type="submit"],
+#main .actions input[type="submit"]:hover,
+#main .actions input[type="submit"]:focus,
+#main .action,
+#main a.button,
+#main .pagination .current,
+#main .actions .current,
+#main .actions .disabled {
+  background: rgba(255, 255, 255, 0.23);
+  border: 1px solid transparent;
+  border-radius: 0.95em;
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.93), inset 0 0 4px rgba(98, 158, 199, 0.32), inset 0 0 6px rgba(255, 255, 255, 0.23), 0 1px 3px rgba(56, 103, 138, 0.11);
+  color: #294b70;
+  text-shadow: none;
+}
+
+#dashboard a.current,
+#dashboard span.current,
+#main .actions .current,
+#main .actions a.current,
+#main .pagination .current,
+#main .pagination a.current {
+  background: rgba(192, 227, 248, 0.53);
+  border-color: transparent;
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.90), inset 0 0 4px rgba(81, 145, 190, 0.39), inset 0 0 6px rgba(255, 255, 255, 0.22), 0 1px 3px rgba(56, 103, 138, 0.13);
+  color: #214567;
+}
+
+#main .navigation.actions,
+#main .pagination,
+#main .landmark + .actions {
+  background: transparent;
+  box-shadow: none;
+}
+
+#main .pagination {
+  float: none;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+#footer {
+  background: #dceefb;
+  border: 0;
+  border-top: 1px solid #c6dfef;
+  color: #294b70;
+}
+
+#footer .heading,
+#footer a,
+#footer a:visited {
+  color: #294b70;
+}
+
+/* AO3 title face for English text */
+body,
+#outer,
+.heading,
+#header .heading a,
+#main .userstuff,
+.heading .actions,
+.heading .action,
+span.unread,
+.replied,
+span.claimed,
+.actions span.defaulted,
+.prompt .blurb h6,
+.splash .news .meta,
+input,
+select,
+textarea,
+button,
+option,
+blockquote,
+address,
+pre,
+code,
+kbd,
+samp,
+tt,
+var {
+  font-family: Georgia, "Times New Roman", "Songti SC", STSong, SimSun, "Noto Serif CJK SC", serif;
+}
+
+/* 页眉账号菜单和主导航 */
+#header #greeting .user a,
+#header .primary a {
+  font-family: Georgia, "Times New Roman", "Songti SC", STSong, SimSun, "Noto Serif CJK SC", serif !important;
+}
+
+/* 作品列表的三个操作键整排居中 */
+#main .navigation.actions.module > ul.user.navigation.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  float: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Aqua Glass reading pages */
+#main > .work > ul.work.navigation.actions {
+  float: none;
+  clear: both;
+  margin: 0.7em 0;
+  padding: 0.5em 0.35em;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid #d3e6f3;
+  border-radius: 1em;
+}
+
+#main .work #work-skin {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+#main #workskin {
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid #d3e6f3;
+  border-radius: 1em;
+  margin: 0.85em 0 1.1em;
+  padding: 0.65em 0.85em 1em;
+}
+
+#main > .work > .wrapper > dl.work.meta a.tag {
+  padding: 0.08em 0.32em;
+  background: #eaf5fd;
+  border: 0;
+  border-radius: 0.85em;
+  color: #355e88;
+}
+
+#main > .work > ul.work.navigation.actions .secondary {
+  background: #f5fbff;
+  border: 1px solid #cadeef;
+  border-radius: 0.75em;
+  box-shadow: none;
+}
+
+#main h3.landmark + .wrapper {
+  box-shadow: none;
+}
+
+#outer #main .wrapper > dl.work.meta {
+  padding: 0.65em 0.8em 0.85em 1.8em;
+  border: 0;
+  border-radius: 3px;
+  background-color: #f9fcff;
+  background-image: linear-gradient(#f9fcff 0%, #f9fcff 96%, #dae8f2 96%, #dae8f2 100%);
+  background-size: 100% 2em;
+  background-position: 0 0.65em;
+  background-repeat: repeat;
+  box-shadow: 1px 2px 0 #edf3f7, 3px 6px 8px -3px rgba(48, 76, 101, 0.30);
+  position: relative;
+}
+
+#outer #main dl.work.meta:before {
+  content: "";
+  position: absolute;
+  top: 0.5em;
+  bottom: 0.5em;
+  left: 1.25em;
+  border-left: 1px solid #a9d3ed;
+}
+
+#outer #main dl.work.meta > dt,
+#outer #main dl.work.meta > dd {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 2em;
+}
+
+#outer #main dl.work.meta > dt {
+  clear: both;
+  float: left;
+  margin-right: 0.4em;
+}
+
+#outer #main dl.work.meta > dd {
+  display: block;
+  float: none;
+  clear: none;
+  min-height: 2em;
+  overflow-wrap: break-word;
+}
+
+#outer #main dl.work.meta > dd > ul,
+#outer #main dl.work.meta dd.stats dl,
+#outer #main dl.work.meta dd.stats dl > dt,
+#outer #main dl.work.meta dd.stats dl > dd {
+  display: inline;
+  float: none;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+}
+
+#outer #main dl.work.meta dd.stats dl > dd {
+  margin-right: 0.5em;
+}
+
+#outer #main dl.work.meta a.tag {
+  border: 0;
+  border-radius: 0.8em;
+  padding: 0.05em 0.28em;
+  background: #eaf5fd;
+  text-decoration: none;
+}
+
+#main #feedback > ul.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  float: none;
+  width: auto;
+  margin: 1em 0;
+  padding: 0;
+}
+
+#main #feedback > ul.actions > li {
+  float: none;
+  margin: 0.2em;
+  padding: 0;
+}
+
+#main form.edit_preference > fieldset,
+#main form.new_preference > fieldset,
+#feedback .post.comment {
+  background: rgba(249, 252, 255, 0.86);
+  border: 0;
+  border-radius: 1em;
+  padding: 0.85em;
+  box-shadow: 0 2px 8px rgba(56, 103, 138, 0.12);
+}
+
+#feedback .post.comment form,
+#feedback .post.comment fieldset {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+#feedback .post.comment .notice {
+  background: #eaf5fd;
+  border: 0;
+  border-radius: 0.75em;
+  padding: 0.65em 0.85em;
+}
+
+#feedback .post.comment textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 8em;
+  padding: 0.75em;
+  background: #f7fcff;
+  color: #29435c;
+  border: 1px solid #c4dfef;
+  border-radius: 0.8em;
+  box-shadow: none;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#feedback .post.comment textarea:focus {
+  outline: 2px solid #83b9d9;
+}
+
+#kudos p.kudos {
+  position: relative;
+  background-image: none;
+  padding-left: 62px;
+  min-height: 57px;
+}
+
+#kudos p.kudos:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55px;
+  height: 57px;
+  background: url("https://archiveofourown.org/images/skins/iconsets/default/kudos.png") no-repeat center;
+  background-size: contain;
+}
+
+#main #feedback > ul.actions a[href="#main"],
+#main #feedback > ul.actions #kudo_submit,
+#main #feedback > ul.actions a.bookmark_form_placement_open {
+  background-color: rgba(189, 225, 247, 0.85);
+  color: #294b70;
+}
+
+#dashboard,
+#dashboard.own {
+  border: solid transparent;
+  border-width: 8px 8px 16px;
+  border-radius: 3px;
+  padding: 0.4em;
+  background-color: #c5e2f4;
+  background-image: linear-gradient(#f9fcff, #f9fcff),
+    linear-gradient(90deg, #edf7fd 0%, #edf7fd 12%, rgba(237, 247, 253, 0) 12%, rgba(237, 247, 253, 0) 24%, #edf7fd 24%, #edf7fd 30%, rgba(237, 247, 253, 0) 30%),
+    linear-gradient(0deg, #edf7fd 0%, #edf7fd 12%, rgba(237, 247, 253, 0) 12%, rgba(237, 247, 253, 0) 24%, #edf7fd 24%, #edf7fd 30%, rgba(237, 247, 253, 0) 30%);
+  background-size: auto, 22px 22px, 22px 22px;
+  background-origin: padding-box, border-box, border-box;
+  background-clip: padding-box, border-box, border-box;
+  box-shadow: 1px 3px 5px rgba(55, 90, 118, 0.17);
+}
+
+#outer #main > h2.heading:first-of-type,
+#outer #main .works-index h2.heading:first-of-type,
+#outer #main .filtered > h2.heading:first-of-type {
+  display: block;
+  float: none;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#outer #main .blurb .header h4.heading a[href*="/works/"] {
+  color: #4d7898;
+}
+
+#outer #main .blurb .header h4.heading a[rel~="author"],
+#outer #main .blurb .header h4.heading a[href^="/users/"] {
+  color: #577991;
+}
+
+#main > p.notes,
+#main > p.instructions,
+#main > p:not([class]),
+#main .skins.home .css.module,
+#main .skins.home .parents.module,
+#main .skins.home .primary.header,
+#main .profile .bio,
+#main dl.subscription.index,
+#main .admin[role="article"] > .userstuff,
+#main .index > li.blurb {
+  background-color: rgba(255, 255, 255, 0.74);
+  border: 1px solid #d3e6f3;
+  border-radius: 1em;
+  color: #29435c;
+}
+
+#main > p.notes,
+#main > p.instructions,
+#main > p:not([class]),
+#main .skins.home .css.module,
+#main .skins.home .parents.module,
+#main .skins.home .primary.header,
+#main .profile .bio,
+#main dl.subscription.index,
+#main .admin[role="article"] > .userstuff {
+  padding: 0.75em 0.9em;
+}
+
+#outer .skins .icon:empty,
+#outer .mystery .icon:empty,
+#outer .tag .icon:empty,
+#outer .tagset .icon:empty,
+#outer .collection .icon:empty,
+#outer img[src*="/images/skins/iconsets/default/icon_"],
+#outer img[src*="/images/skins/iconsets/default_large/icon_"],
+#outer img[src*="/images/ao3_logos/"],
+#outer .required-tags .rating-explicit,
+#outer .required-tags .category-femslash,
+#outer .required-tags .category-het,
+#outer .required-tags .complete-no,
+#outer .required-tags .warning-yes {
+  filter: hue-rotate(205deg) saturate(0.55) brightness(1.10);
+}
+
+/* 首页栏目 */
+#main .splash > .module {
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.74);
+  border: 1px solid #d3e6f3;
+  border-radius: 1em;
+  padding: 0.75em 0.9em;
+}
+
+#main .skins.home .primary.header,
+#main .skins.home .css.module,
+#main .skins.home .parents.module {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#main .skins.home .css.module pre {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
